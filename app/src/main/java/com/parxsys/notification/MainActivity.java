@@ -8,6 +8,7 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //make changes
+
+        Toast.makeText(MainActivity.this, "Welcome!", Toast.LENGTH_SHORT).show();
 
         NotificationCompat.Builder builder =new NotificationCompat.Builder(this,"123")
                 .setContentTitle("MY NOTIFICATION")
