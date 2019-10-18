@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//make changes
 
         NotificationCompat.Builder builder =new NotificationCompat.Builder(this,"123")
                 .setContentTitle("MY NOTIFICATION")
